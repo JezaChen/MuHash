@@ -9,6 +9,10 @@
 #include <string>
 #include <cstring>
 
+#include <cryptopp/base64.h>
+
+using namespace CryptoPP;
+
 constexpr inline bool IsSpace(char c) noexcept {
     return c == ' ' || c == '\f' || c == '\n' || c == '\r' || c == '\t' || c == '\v';
 }
@@ -78,5 +82,10 @@ void static inline WriteLE64(unsigned char* ptr, uint64_t x)
     uint64_t v = htole64(x);
     memcpy(ptr, (char*)&v, 8);
 }
+
+std::string BytesToBase64(byte *s, unsigned int s_len);
+
+// BASE64解码
+std::string Base64ToBytes(byte *s, unsigned int s_len);
 
 #endif //MUHASH_UTIL_H

@@ -20,3 +20,24 @@ std::string HexStr(const std::vector<uint8_t> s)
     }
     return rv;
 }
+
+std::string BytesToBase64(byte *s, unsigned int s_len)
+{
+    std::string encoded;
+
+    StringSource ss(s, s_len, true,
+                    new Base64Encoder(new StringSink(encoded))
+    );
+    return encoded;
+}
+
+// BASE64解码
+std::string Base64ToBytes(byte *s, unsigned int s_len)
+{
+    std::string decoded;
+
+    StringSource ss(s, s_len, true,
+                    new Base64Decoder(new StringSink(decoded))
+    );
+    return decoded;
+}

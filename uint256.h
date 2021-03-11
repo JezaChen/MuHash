@@ -12,6 +12,11 @@
 #include <string>
 #include <vector>
 
+#include <cryptopp/base64.h>
+#include "util.h"
+
+using CryptoPP::byte;
+
 /** Template base class for fixed-sized opaque blobs. */
 template<unsigned int BITS>
 class base_blob
@@ -99,6 +104,12 @@ public:
     void Serialize(char* s) const
     {
         memcpy(s, (char*)m_data, sizeof(m_data));
+    }
+
+    std::string SerializeBase64() {
+        char tmp[sizeof(m_data)];
+        memcpy(tmp, m_data, sizeof(m_data));
+        return BytesToBase64((byte*)tmp, 32);
     }
 //
 //    template<typename Stream>
