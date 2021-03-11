@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="muhash"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\vcpkg\;CMake Files\..\..\vcpkg\packages\;CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\;CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\share\;CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\share\cryptopp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jeza/CLionProjects/muhash"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jeza/CLionProjects/muhash"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jeza/CLionProjects/muhash"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="muhash">
+				<Option output="/home/jeza/CLionProjects/muhash/muhash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeza/CLionProjects/muhash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jeza/vcpkg/packages/cryptopp_x64-linux/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 muhash"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="muhash/fast">
+				<Option output="/home/jeza/CLionProjects/muhash/muhash" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeza/CLionProjects/muhash"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jeza/vcpkg/packages/cryptopp_x64-linux/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 muhash/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jeza/CLionProjects/muhash/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jeza/CLionProjects/muhash/chacha20.cpp">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/chacha20.h">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/main.cpp">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/muhash.cpp">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/muhash.h">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/uint256.cpp">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/uint256.h">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/util.cpp">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/util.h">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/../../vcpkg/packages/cryptopp_x64-linux/share/cryptopp/cryptopp-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\share\cryptopp\"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/../../vcpkg/packages/cryptopp_x64-linux/share/cryptopp/cryptopp-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\share\cryptopp\"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/../../vcpkg/packages/cryptopp_x64-linux/share/cryptopp/cryptopp-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\share\cryptopp\"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/../../vcpkg/packages/cryptopp_x64-linux/share/cryptopp/cryptopp-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\share\cryptopp\"/>
+		</Unit>
+		<Unit filename="/home/jeza/CLionProjects/muhash/../../vcpkg/packages/cryptopp_x64-linux/share/cryptopp/cryptopp-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\vcpkg\packages\cryptopp_x64-linux\share\cryptopp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
