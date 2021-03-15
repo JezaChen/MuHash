@@ -349,3 +349,9 @@ MuHash3072& MuHash3072::Remove(const unsigned char *in) noexcept {
     m_numerator.Divide(ToNum3072(in));
     return *this;
 }
+
+std::string MuHash3072::FinalizeBase64() noexcept {
+    uint256 out;
+    this->Finalize(out);
+    return out.SerializeBase64();
+}

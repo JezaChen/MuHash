@@ -10,6 +10,8 @@
 #include <cstdint>
 #include <cstdio>
 
+typedef unsigned char byte;
+
 
 class Num3072
 {
@@ -111,6 +113,8 @@ public:
 
     /* Finalize into a 32-byte hash. Does not change this object's value. */
     void Finalize(uint256& out) noexcept;
+
+    std::string FinalizeBase64() noexcept;
 
 };
 
