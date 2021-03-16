@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/muhash.dir/chacha20.cpp.o"
   "CMakeFiles/muhash.dir/main.cpp.o"
   "CMakeFiles/muhash.dir/muhash.cpp.o"
+  "CMakeFiles/muhash.dir/sha256.cpp.o"
   "CMakeFiles/muhash.dir/uint256.cpp.o"
   "CMakeFiles/muhash.dir/util.cpp.o"
   "muhash"

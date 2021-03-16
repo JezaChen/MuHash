@@ -26,67 +26,22 @@ CMakeFiles/muhash.dir/main.cpp.o
  /home/jeza/muhash/muhash.h
  /home/jeza/muhash/uint256.h
  /home/jeza/muhash/util.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/algparam.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/argnames.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/base64.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/basecode.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/config.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/cryptlib.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/filters.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/integer.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/misc.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/ossig.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/queue.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/secblock.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/simple.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/smartptr.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/stdcpp.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/trap.h
 CMakeFiles/muhash.dir/muhash.cpp.o
  /home/jeza/muhash/chacha20.h
  /home/jeza/muhash/muhash.cpp
  /home/jeza/muhash/muhash.h
+ /home/jeza/muhash/sha256.h
  /home/jeza/muhash/uint256.h
  /home/jeza/muhash/util.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/algparam.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/argnames.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/base64.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/basecode.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/config.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/cryptlib.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/filters.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/integer.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/iterhash.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/misc.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/ossig.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/queue.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/secblock.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/sha.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/simple.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/smartptr.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/stdcpp.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/trap.h
+CMakeFiles/muhash.dir/sha256.cpp.o
+ /home/jeza/muhash/sha256.cpp
+ /home/jeza/muhash/sha256.h
 CMakeFiles/muhash.dir/uint256.cpp.o
  /home/jeza/muhash/uint256.cpp
  /home/jeza/muhash/uint256.h
  /home/jeza/muhash/util.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/algparam.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/argnames.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/base64.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/basecode.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/config.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/cryptlib.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/filters.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/integer.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/misc.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/ossig.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/queue.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/secblock.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/simple.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/smartptr.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/stdcpp.h
- /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/trap.h
 CMakeFiles/muhash.dir/util.cpp.o
+ /home/jeza/muhash/base64.h
  /home/jeza/muhash/util.cpp
  /home/jeza/muhash/util.h
  /home/jeza/vcpkg/installed/x64-linux/include/cryptopp/algparam.h

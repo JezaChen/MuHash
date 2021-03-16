@@ -15,8 +15,6 @@
 #include <cryptopp/base64.h>
 #include "util.h"
 
-using CryptoPP::byte;
-
 /** Template base class for fixed-sized opaque blobs. */
 template<unsigned int BITS>
 class base_blob

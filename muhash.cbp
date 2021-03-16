@@ -5,7 +5,7 @@
 		<Option title="muhash"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\vcpkg\;CMake Files\..\vcpkg\scripts\;CMake Files\..\vcpkg\scripts\buildsystems\;CMake Files\..\vcpkg\installed\;CMake Files\..\vcpkg\installed\x64-linux\;CMake Files\..\vcpkg\installed\x64-linux\share\;CMake Files\..\vcpkg\installed\x64-linux\share\cryptopp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\vcpkg\;CMake Files\..\vcpkg\scripts\;CMake Files\..\vcpkg\scripts\buildsystems\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/jeza/muhash"/>
@@ -44,7 +44,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/jeza/vcpkg/installed/x64-linux/include"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -67,7 +66,6 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/jeza/vcpkg/installed/x64-linux/include"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -84,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/jeza/muhash/base64.h">
+			<Option target="muhash"/>
+		</Unit>
 		<Unit filename="/home/jeza/muhash/chacha20.cpp">
 			<Option target="muhash"/>
 		</Unit>
@@ -97,6 +98,12 @@
 			<Option target="muhash"/>
 		</Unit>
 		<Unit filename="/home/jeza/muhash/muhash.h">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/muhash/sha256.cpp">
+			<Option target="muhash"/>
+		</Unit>
+		<Unit filename="/home/jeza/muhash/sha256.h">
 			<Option target="muhash"/>
 		</Unit>
 		<Unit filename="/home/jeza/muhash/uint256.cpp">
@@ -116,21 +123,6 @@
 		</Unit>
 		<Unit filename="/home/jeza/muhash/../vcpkg/scripts/buildsystems/vcpkg.cmake">
 			<Option virtualFolder="CMake Files\..\vcpkg\scripts\buildsystems\"/>
-		</Unit>
-		<Unit filename="/home/jeza/muhash/../vcpkg/installed/x64-linux/share/cryptopp/cryptopp-config-version.cmake">
-			<Option virtualFolder="CMake Files\..\vcpkg\installed\x64-linux\share\cryptopp\"/>
-		</Unit>
-		<Unit filename="/home/jeza/muhash/../vcpkg/installed/x64-linux/share/cryptopp/cryptopp-config.cmake">
-			<Option virtualFolder="CMake Files\..\vcpkg\installed\x64-linux\share\cryptopp\"/>
-		</Unit>
-		<Unit filename="/home/jeza/muhash/../vcpkg/installed/x64-linux/share/cryptopp/cryptopp-targets-debug.cmake">
-			<Option virtualFolder="CMake Files\..\vcpkg\installed\x64-linux\share\cryptopp\"/>
-		</Unit>
-		<Unit filename="/home/jeza/muhash/../vcpkg/installed/x64-linux/share/cryptopp/cryptopp-targets-release.cmake">
-			<Option virtualFolder="CMake Files\..\vcpkg\installed\x64-linux\share\cryptopp\"/>
-		</Unit>
-		<Unit filename="/home/jeza/muhash/../vcpkg/installed/x64-linux/share/cryptopp/cryptopp-targets.cmake">
-			<Option virtualFolder="CMake Files\..\vcpkg\installed\x64-linux\share\cryptopp\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

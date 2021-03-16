@@ -224,6 +224,33 @@ muhash.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/muhash.dir/build.make CMakeFiles/muhash.dir/muhash.cpp.s
 .PHONY : muhash.cpp.s
 
+sha256.o: sha256.cpp.o
+
+.PHONY : sha256.o
+
+# target to build an object file
+sha256.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muhash.dir/build.make CMakeFiles/muhash.dir/sha256.cpp.o
+.PHONY : sha256.cpp.o
+
+sha256.i: sha256.cpp.i
+
+.PHONY : sha256.i
+
+# target to preprocess a source file
+sha256.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muhash.dir/build.make CMakeFiles/muhash.dir/sha256.cpp.i
+.PHONY : sha256.cpp.i
+
+sha256.s: sha256.cpp.s
+
+.PHONY : sha256.s
+
+# target to generate assembly for a file
+sha256.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/muhash.dir/build.make CMakeFiles/muhash.dir/sha256.cpp.s
+.PHONY : sha256.cpp.s
+
 uint256.o: uint256.cpp.o
 
 .PHONY : uint256.o
@@ -296,6 +323,9 @@ help:
 	@echo "... muhash.o"
 	@echo "... muhash.i"
 	@echo "... muhash.s"
+	@echo "... sha256.o"
+	@echo "... sha256.i"
+	@echo "... sha256.s"
 	@echo "... uint256.o"
 	@echo "... uint256.i"
 	@echo "... uint256.s"

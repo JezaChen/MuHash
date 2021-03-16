@@ -2,6 +2,7 @@
 // Created by jeza on 2021/3/11.
 //
 #include "util.h"
+#include "base64.h"
 
 signed char HexDigit(char c)
 {
@@ -23,21 +24,5 @@ std::string HexStr(const std::vector<uint8_t> s)
 
 std::string BytesToBase64(byte *s, unsigned int s_len)
 {
-    std::string encoded;
-
-    StringSource ss(s, s_len, true,
-                    new Base64Encoder(new StringSink(encoded), false) //不要往后面加入换行符
-    );
-    return encoded;
-}
-
-// BASE64解码
-std::string Base64ToBytes(byte *s, unsigned int s_len)
-{
-    std::string decoded;
-
-    StringSource ss(s, s_len, true,
-                    new Base64Decoder(new StringSink(decoded))
-    );
-    return decoded;
+    return base64_encode(s, s_len);
 }
