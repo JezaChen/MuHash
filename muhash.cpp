@@ -297,10 +297,21 @@ void Num3072::ToBytes(unsigned char (&out)[BYTE_SIZE]) {
     }
 }
 
-Num3072 MuHash3072::ToNum3072(const unsigned char *in) {
+// Num3072 MuHash3072::ToNum3072(const unsigned char *in) {
+//     unsigned char tmp[Num3072::BYTE_SIZE];
+//     byte abDigest[CryptoPP::SHA256::DIGESTSIZE];
+//     CryptoPP::SHA256().CalculateDigest(abDigest, in, std::strlen((char *)in));
+
+//     ChaCha20(abDigest, CryptoPP::SHA256::DIGESTSIZE).Keystream(tmp, Num3072::BYTE_SIZE);
+//     Num3072 out{tmp};
+
+//     return out;
+// }
+
+Num3072 MuHash3072::ToNum3072(const unsigned char *in, int len) {
     unsigned char tmp[Num3072::BYTE_SIZE];
     byte abDigest[CryptoPP::SHA256::DIGESTSIZE];
-    CryptoPP::SHA256().CalculateDigest(abDigest, in, std::strlen((char *)in));
+    CryptoPP::SHA256().CalculateDigest(abDigest, in, len);
 
     ChaCha20(abDigest, CryptoPP::SHA256::DIGESTSIZE).Keystream(tmp, Num3072::BYTE_SIZE);
     Num3072 out{tmp};
@@ -308,9 +319,14 @@ Num3072 MuHash3072::ToNum3072(const unsigned char *in) {
     return out;
 }
 
-MuHash3072::MuHash3072(const unsigned char *in) noexcept
+// MuHash3072::MuHash3072(const unsigned char *in) noexcept
+// {
+//     m_numerator = ToNum3072(in);
+// }
+
+MuHash3072::MuHash3072(const unsigned char *in, int len) noexcept
 {
-    m_numerator = ToNum3072(in);
+    m_numerator = ToNum3072(in, len);
 }
 
 void MuHash3072::Finalize(uint256& out) noexcept
@@ -322,7 +338,7 @@ void MuHash3072::Finalize(uint256& out) noexcept
     m_numerator.ToBytes(data);
 
     byte abDigest[CryptoPP::SHA256::DIGESTSIZE];
-    CryptoPP::SHA256().CalculateDigest(abDigest, data, std::strlen((char *)data));
+    CryptoPP::SHA256().CalculateDigest(abDigest, data, Num3072::BYTE_SIZE);
     out = uint256(abDigest, CryptoPP::SHA256::DIGESTSIZE);
 }
 
@@ -340,13 +356,13 @@ MuHash3072& MuHash3072::operator/=(const MuHash3072& div) noexcept
     return *this;
 }
 
-MuHash3072& MuHash3072::Insert(const unsigned char *in) noexcept {
-    m_numerator.Multiply(ToNum3072(in));
+MuHash3072& MuHash3072::Insert(const unsigned char *in, int len) noexcept {
+    m_numerator.Multiply(ToNum3072(in, len));
     return *this;
 }
 
-MuHash3072& MuHash3072::Remove(const unsigned char *in) noexcept {
-    m_numerator.Divide(ToNum3072(in));
+MuHash3072& MuHash3072::Remove(const unsigned char *in, int len) noexcept {
+    m_numerator.Divide(ToNum3072(in, len));
     return *this;
 }
 

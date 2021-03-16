@@ -1,3 +1,3 @@
-/home/jeza/CLionProjects/muhash/CMakeFiles/edit_cache.dir
-/home/jeza/CLionProjects/muhash/CMakeFiles/rebuild_cache.dir
-/home/jeza/CLionProjects/muhash/CMakeFiles/muhash.dir
+/home/jeza/muhash/CMakeFiles/edit_cache.dir
+/home/jeza/muhash/CMakeFiles/rebuild_cache.dir
+/home/jeza/muhash/CMakeFiles/muhash.dir

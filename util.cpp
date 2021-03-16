@@ -26,7 +26,7 @@ std::string BytesToBase64(byte *s, unsigned int s_len)
     std::string encoded;
 
     StringSource ss(s, s_len, true,
-                    new Base64Encoder(new StringSink(encoded))
+                    new Base64Encoder(new StringSink(encoded), false) //不要往后面加入换行符
     );
     return encoded;
 }

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/muhash.dir/main.cpp.o CMakeFiles/muhash.dir/muhash.cpp.o CMakeFiles/muhash.dir/uint256.cpp.o CMakeFiles/muhash.dir/chacha20.cpp.o CMakeFiles/muhash.dir/util.cpp.o  -o muhash  /home/jeza/vcpkg/packages/cryptopp_x64-linux/debug/lib/libcryptopp.a -lpthread 

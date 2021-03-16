@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/jeza/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/jeza/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/jeza/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/jeza/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/202.7660.37/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jeza/CLionProjects/muhash
+CMAKE_SOURCE_DIR = /home/jeza/muhash
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jeza/CLionProjects/muhash
+CMAKE_BINARY_DIR = /home/jeza/muhash
 
 # Include any dependencies generated for this target.
 include CMakeFiles/muhash.dir/depend.make
@@ -79,68 +79,68 @@ include CMakeFiles/muhash.dir/flags.make
 
 CMakeFiles/muhash.dir/main.cpp.o: CMakeFiles/muhash.dir/flags.make
 CMakeFiles/muhash.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/CLionProjects/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/muhash.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/main.cpp.o -c /home/jeza/CLionProjects/muhash/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/muhash.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/main.cpp.o -c /home/jeza/muhash/main.cpp
 
 CMakeFiles/muhash.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muhash.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/CLionProjects/muhash/main.cpp > CMakeFiles/muhash.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/muhash/main.cpp > CMakeFiles/muhash.dir/main.cpp.i
 
 CMakeFiles/muhash.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muhash.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/CLionProjects/muhash/main.cpp -o CMakeFiles/muhash.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/muhash/main.cpp -o CMakeFiles/muhash.dir/main.cpp.s
 
 CMakeFiles/muhash.dir/muhash.cpp.o: CMakeFiles/muhash.dir/flags.make
 CMakeFiles/muhash.dir/muhash.cpp.o: muhash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/CLionProjects/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/muhash.dir/muhash.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/muhash.cpp.o -c /home/jeza/CLionProjects/muhash/muhash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/muhash.dir/muhash.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/muhash.cpp.o -c /home/jeza/muhash/muhash.cpp
 
 CMakeFiles/muhash.dir/muhash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muhash.dir/muhash.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/CLionProjects/muhash/muhash.cpp > CMakeFiles/muhash.dir/muhash.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/muhash/muhash.cpp > CMakeFiles/muhash.dir/muhash.cpp.i
 
 CMakeFiles/muhash.dir/muhash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muhash.dir/muhash.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/CLionProjects/muhash/muhash.cpp -o CMakeFiles/muhash.dir/muhash.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/muhash/muhash.cpp -o CMakeFiles/muhash.dir/muhash.cpp.s
 
 CMakeFiles/muhash.dir/uint256.cpp.o: CMakeFiles/muhash.dir/flags.make
 CMakeFiles/muhash.dir/uint256.cpp.o: uint256.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/CLionProjects/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/muhash.dir/uint256.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/uint256.cpp.o -c /home/jeza/CLionProjects/muhash/uint256.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/muhash.dir/uint256.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/uint256.cpp.o -c /home/jeza/muhash/uint256.cpp
 
 CMakeFiles/muhash.dir/uint256.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muhash.dir/uint256.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/CLionProjects/muhash/uint256.cpp > CMakeFiles/muhash.dir/uint256.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/muhash/uint256.cpp > CMakeFiles/muhash.dir/uint256.cpp.i
 
 CMakeFiles/muhash.dir/uint256.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muhash.dir/uint256.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/CLionProjects/muhash/uint256.cpp -o CMakeFiles/muhash.dir/uint256.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/muhash/uint256.cpp -o CMakeFiles/muhash.dir/uint256.cpp.s
 
 CMakeFiles/muhash.dir/chacha20.cpp.o: CMakeFiles/muhash.dir/flags.make
 CMakeFiles/muhash.dir/chacha20.cpp.o: chacha20.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/CLionProjects/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/muhash.dir/chacha20.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/chacha20.cpp.o -c /home/jeza/CLionProjects/muhash/chacha20.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/muhash.dir/chacha20.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/chacha20.cpp.o -c /home/jeza/muhash/chacha20.cpp
 
 CMakeFiles/muhash.dir/chacha20.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muhash.dir/chacha20.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/CLionProjects/muhash/chacha20.cpp > CMakeFiles/muhash.dir/chacha20.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/muhash/chacha20.cpp > CMakeFiles/muhash.dir/chacha20.cpp.i
 
 CMakeFiles/muhash.dir/chacha20.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muhash.dir/chacha20.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/CLionProjects/muhash/chacha20.cpp -o CMakeFiles/muhash.dir/chacha20.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/muhash/chacha20.cpp -o CMakeFiles/muhash.dir/chacha20.cpp.s
 
 CMakeFiles/muhash.dir/util.cpp.o: CMakeFiles/muhash.dir/flags.make
 CMakeFiles/muhash.dir/util.cpp.o: util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/CLionProjects/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/muhash.dir/util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/util.cpp.o -c /home/jeza/CLionProjects/muhash/util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeza/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/muhash.dir/util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/muhash.dir/util.cpp.o -c /home/jeza/muhash/util.cpp
 
 CMakeFiles/muhash.dir/util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/muhash.dir/util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/CLionProjects/muhash/util.cpp > CMakeFiles/muhash.dir/util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeza/muhash/util.cpp > CMakeFiles/muhash.dir/util.cpp.i
 
 CMakeFiles/muhash.dir/util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/muhash.dir/util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/CLionProjects/muhash/util.cpp -o CMakeFiles/muhash.dir/util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeza/muhash/util.cpp -o CMakeFiles/muhash.dir/util.cpp.s
 
 # Object files for target muhash
 muhash_OBJECTS = \
@@ -159,9 +159,9 @@ muhash: CMakeFiles/muhash.dir/uint256.cpp.o
 muhash: CMakeFiles/muhash.dir/chacha20.cpp.o
 muhash: CMakeFiles/muhash.dir/util.cpp.o
 muhash: CMakeFiles/muhash.dir/build.make
-muhash: /home/jeza/vcpkg/packages/cryptopp_x64-linux/debug/lib/libcryptopp.a
+muhash: /home/jeza/vcpkg/installed/x64-linux/debug/lib/libcryptopp.a
 muhash: CMakeFiles/muhash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeza/CLionProjects/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable muhash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeza/muhash/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable muhash"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/muhash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -174,6 +174,6 @@ CMakeFiles/muhash.dir/clean:
 .PHONY : CMakeFiles/muhash.dir/clean
 
 CMakeFiles/muhash.dir/depend:
-	cd /home/jeza/CLionProjects/muhash && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeza/CLionProjects/muhash /home/jeza/CLionProjects/muhash /home/jeza/CLionProjects/muhash /home/jeza/CLionProjects/muhash /home/jeza/CLionProjects/muhash/CMakeFiles/muhash.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jeza/muhash && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jeza/muhash /home/jeza/muhash /home/jeza/muhash /home/jeza/muhash /home/jeza/muhash/CMakeFiles/muhash.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/muhash.dir/depend
 

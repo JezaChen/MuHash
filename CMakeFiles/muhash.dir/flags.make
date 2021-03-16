@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/jeza/vcpkg/packages/cryptopp_x64-linux/include 
+CXX_INCLUDES = -isystem /home/jeza/vcpkg/installed/x64-linux/include 
 

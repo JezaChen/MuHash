@@ -90,20 +90,23 @@ private:
     Num3072 m_numerator;
     Num3072 m_denominator;
 
-    Num3072 ToNum3072(const unsigned char *in);
+    //Num3072 ToNum3072(const unsigned char *in);
+    Num3072 ToNum3072(const unsigned char *in, int len);
 
 public:
     /* The empty set. */
     MuHash3072() noexcept {};
 
     /* A singleton with variable sized data in it. */
-    explicit MuHash3072(const unsigned char *in) noexcept;
+    //explicit MuHash3072(const unsigned char *in) noexcept;
+
+    explicit MuHash3072(const unsigned char *in, int len) noexcept;
 
     /* Insert a single piece of data into the set. */
-    MuHash3072& Insert(const unsigned char *in) noexcept;
+    MuHash3072& Insert(const unsigned char *in, int len) noexcept;
 
     /* Remove a single piece of data from the set. */
-    MuHash3072& Remove(const unsigned char *in) noexcept;
+    MuHash3072& Remove(const unsigned char *in, int len) noexcept;
 
     /* Multiply (resulting in a hash for the union of the sets) */
     MuHash3072& operator*=(const MuHash3072& mul) noexcept;
